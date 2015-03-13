@@ -1,6 +1,6 @@
 from django.conf.urls import patterns, include, url
 from django.contrib import admin
-from RPiPowerController.actions import  turnOff, turnOn
+from RPiPowerController.actions import turnOff, turnOn
 
 urlpatterns = patterns('',
     # Examples:
